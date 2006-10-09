@@ -2,12 +2,12 @@ Summary:	FindBugs - plugin for Eclipse
 Summary(pl):	FindBugs - wtyczka do ¶rodowiska Eclipse
 Name:		eclipse-plugins-findbugs
 %define	_date	20061006
-Version:	1.1.1.%{_date}
+Version:	1.1.1.v%{_date}
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Java
 Source0:	http://dl.sourceforge.net/findbugs/edu.umd.cs.findbugs.plugin.eclipse_%{version}.zip
-# Source0-md5:	f7eea639cd7147522b78f81a11fba1de
+# Source0-md5:	f081b2d991c4217330693e3216cc343d
 URL:		http://findbugs.sourceforge.net/
 BuildRequires:	unzip
 Requires:	eclipse
