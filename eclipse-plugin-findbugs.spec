@@ -20,14 +20,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 FindBugs support for the Eclipse IDE Framework.
 
+%description -l pl
+Obs³uga FindBugs dla ¶rodowiska programistycznego Eclipse.
+
 %prep
 %setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_eclipsedir}/plugins/
+install -d $RPM_BUILD_ROOT%{_eclipsedir}/plugins
 
-cp -R *  $RPM_BUILD_ROOT%{_eclipsedir}/plugins
+cp -R * $RPM_BUILD_ROOT%{_eclipsedir}/plugins
 
 %clean
 rm -rf $RPM_BUILD_ROOT
