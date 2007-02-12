@@ -1,5 +1,5 @@
 Summary:	FindBugs - plugin for Eclipse
-Summary(pl):	FindBugs - wtyczka do ∂rodowiska Eclipse
+Summary(pl.UTF-8):   FindBugs - wtyczka do ≈õrodowiska Eclipse
 Name:		eclipse-plugins-findbugs
 %define	_date	20061006
 Version:	1.1.1.v%{_date}
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 FindBugs support for the Eclipse IDE Framework.
 
-%description -l pl
-Obs≥uga FindBugs dla ∂rodowiska programistycznego Eclipse.
+%description -l pl.UTF-8
+Obs≈Çuga FindBugs dla ≈õrodowiska programistycznego Eclipse.
 
 %prep
 %setup -q -c
