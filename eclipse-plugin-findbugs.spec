@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	FindBugs - wtyczka do środowiska Eclipse
 Name:		eclipse-plugins-findbugs
 %define	_date	20090821
 Version:	1.3.9.%{_date}
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/Java
 Source0:	http://dl.sourceforge.net/findbugs/edu.umd.cs.findbugs.plugin.eclipse_%{version}.zip
@@ -12,7 +12,6 @@ URL:		http://findbugs.sourceforge.net/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.6
 Requires:	jdk
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_eclipsedir  %{_libdir}/eclipse/dropins/findbugs
